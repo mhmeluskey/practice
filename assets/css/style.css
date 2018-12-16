@@ -1,0 +1,1039 @@
+#page {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  font-family: "Open Sans";
+}
+
+/* Article headers*/
+.title {
+  color: #1a3877;
+  font-family: "Noticia Text";
+  font-size: 18px;
+}
+
+/* All a tags */
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#home {
+  font-size: 18px;
+}
+
+/* Carousel Section */
+.carousel-inner {
+  height: 500px;
+}
+
+.carasel-caption {
+  background: #e4e9ed;
+  color: #565859;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.5em;
+  padding: 40px 110px 40px 110px;
+}
+
+#indicators {
+  margin-bottom: -165px;
+}
+
+#indicators li {
+  border-radius: 50%;
+  height: 7px;
+  width: 7px;
+  background-color: #14254b;
+}
+
+#indicators .active {
+  background-color: #3299cc;
+}
+
+/* Funding Options - events/ */
+#funding {
+  font-size: 10px;
+  line-height: 2em;
+  float: left;
+  width: 60%;
+  padding: 40px 80px 40px 80px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+#funding li a {
+  color: red;
+}
+
+/* #list-one,
+#list-two */
+#funding ul {
+  float: left;
+  position: relative;
+  word-wrap: break-word;
+  width: 50%;
+}
+
+#more {
+  color: #a43340;
+  position: relative;
+  width: 100%;
+  display: inline-block;
+}
+
+#events {
+  color: white;
+  font-size: 12px;
+  line-height: 1.8em;
+  overflow: hidden;
+  padding-top: 25px;
+  padding-left: 20px;
+  width: 30%;
+  background: #3398cc;
+  margin: 45px 0px 50px 0px;
+}
+
+#upcoming-events {
+  display: inline-block;
+}
+
+#eventwrapper {
+  padding: 15px;
+}
+
+#yellow-dates p {
+  display: inline-block;
+  position: relative;
+  line-height: 1.2em;
+  color: #fbb92f;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#dateevent {
+  float: left;
+  margin-left: 50px;
+  margin-top: -210px;
+}
+
+/* map section */
+
+#map {
+  display: block;
+  width: 40%;
+  height: 276px;
+  background: url("map.jpg");
+  background-repeat: no-repeat;
+  background-position: 35% 45%;
+  margin-left: 10%;
+}
+
+#contact {
+  background: rgba(77, 87, 110, 0.7);
+  z-index: 5;
+  height: 200px;
+  width: 200px;
+  margin-top: -175px;
+  margin-left: 15%;
+  position: absolute;
+  color: white;
+  font-size: 12px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+#contact-us {
+  color: #fbb92f;
+  font-size: 18px;
+}
+
+#Quick-Links {
+  margin-top: -270px;
+  margin-left: 50%;
+  position: absolute;
+  float: left;
+  padding: 35px;
+  line-height: 2em;
+}
+
+#Follow-Us {
+  margin-left: 75%;
+  margin-top: -270px;
+  padding: 35px;
+  word-wrap: break-word;
+  width: 200px;
+}
+
+#sm-icons {
+  width: 90px;
+  word-wrap: break-word;
+  text-align: center;
+  color: #14254b;
+}
+
+.map {
+  background: #3398cc;
+  height: 275px;
+}
+
+/* Navigation */
+
+nav {
+  background-color: #9d202e;
+  position: fixed;
+  z-index: 6;
+  width: 100%;
+}
+
+#burger-link {
+  display: none;
+}
+nav:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0px;
+}
+
+nav ul li:hover {
+  color: white;
+  background-color: rgba(55, 110, 119, 0.07);
+}
+
+nav ul li a {
+  display: inline-block;
+  color: white;
+  padding: 10px 15px;
+  width: 150px;
+  text-decoration: none;
+  position: relative;
+  height: 100%;
+}
+
+nav ul li a:visited {
+  color: white;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+nav ul li a:hover {
+  color: white;
+  background-color: #3299cc;
+}
+
+nav ul ul {
+  position: absolute;
+  top: 100%;
+  background-color: rgba(55, 110, 119, 0.7);
+  display: none;
+}
+
+nav ul ul li {
+  position: relative;
+}
+
+nav ul ul ul {
+  left: 100%;
+  top: 0px;
+  bottom: 0%;
+}
+
+/* top level */
+/* targeting child elements of ul, main nav links */
+nav > ul {
+  margin: 0px;
+}
+
+nav > ul > li {
+  float: left;
+}
+
+nav > ul > li > a {
+  width: auto;
+}
+
+#home {
+  padding-left: 50px;
+  color: #f6b630;
+  display: inline-block;
+}
+
+#home:hover {
+  text-decoration: none;
+}
+
+/* Header  */
+header {
+  top: 0%;
+  z-index: 5;
+  background: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  width: 100%;
+}
+
+#pennlogo {
+  padding-left: 10px;
+  padding-right: 50px;
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+form {
+  font-size: 18px;
+  position: relative;
+  float: right;
+  text-align: center;
+  margin-top: 3%;
+}
+
+::placeholder {
+  font-size: 12px;
+  font-style: italic;
+}
+
+#name {
+  position: relative;
+  font-size: 140%;
+  font-family: "Noticia Text";
+  color: #14254b;
+}
+
+footer {
+  background: #185766;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-family: "open sans";
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1150px) {
+  nav {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  nav > ul > li > a {
+    width: auto;
+    padding: 15px 10px 15px 10px;
+  }
+  header {
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  #indicators {
+    margin-bottom: -150px;
+  }
+}
+
+@media screen and (max-width: 935px) {
+  nav > ul > li > a {
+    width: auto;
+    padding: 10px 5px 5px 5px;
+  }
+
+  #funding {
+    font-size: 10px;
+    line-height: 2em;
+    float: left;
+    width: 60%;
+    padding: 40px 80px 40px 80px;
+    margin-top: -50px;
+    position: relative;
+  }
+
+  #funding li a {
+    color: red;
+  }
+
+  #list-two {
+    margin-top: -15px;
+  }
+
+  /* #list-one,
+  #list-two */
+  #funding ul {
+    float: left;
+    position: relative;
+    word-wrap: break-word;
+    width: 100%;
+  }
+
+  #events {
+    color: white;
+    font-size: 12px;
+    line-height: 1.8em;
+    overflow: hidden;
+    padding-top: 25px;
+    padding-left: 20px;
+    width: 30%;
+    background: #3398cc;
+    margin: 45px 0px 50px 0px;
+  }
+
+  #upcoming-events {
+    display: inline-block;
+  }
+
+  #eventwrapper {
+    padding: 15px;
+  }
+
+  #yellow-dates p {
+    display: inline-block;
+    position: relative;
+    line-height: 1.5em;
+    color: #fbb92f;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  #dateevent {
+    float: left;
+    margin-left: 50px;
+    margin-top: -240px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  nav {
+    font-size: 12px;
+  }
+  nav {
+    font-size: 10px;
+  }
+  input {
+    width: 70px;
+    height: 25px;
+  }
+
+  #funding {
+    font-size: 10px;
+    line-height: 2em;
+    float: left;
+    width: 100%;
+    padding: 50px;
+    margin-bottom: 0px;
+    position: relative;
+  }
+  #events {
+    color: white;
+    font-size: 12px;
+    line-height: 3em;
+    overflow: hidden;
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 100%;
+    background: #3398cc;
+    margin: 0px 50px 50px 50px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  #indicators {
+    margin-bottom: -170px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  nav {
+    font-size: 10px;
+  }
+  input {
+    width: 70px;
+    height: 25px;
+  }
+
+  #funding {
+    font-size: 10px;
+    line-height: 2em;
+    float: left;
+    width: 100%;
+    padding: 50px;
+    margin-bottom: 0px;
+    position: relative;
+  }
+  #events {
+    color: white;
+    font-size: 12px;
+    line-height: 3em;
+    overflow: hidden;
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 100%;
+    background: #3398cc;
+    margin: 0px 50px 50px 50px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #indicators {
+    margin-bottom: -220px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #indicators {
+    margin-bottom: -140px;
+  }
+  .carasel-caption {
+    position: relative;
+    margin-top: -100px;
+        background: #e4e9ed;
+        color: #565859;
+        text-align: center;
+        font-size: 12px;
+        line-height: 1.5em;
+        padding: 40px 110px 40px 110px;
+      }
+}
+
+@media screen and (max-width: 670px) {
+  #indicators {
+    margin-bottom: -23%;
+  }
+
+  form {
+    font-size: 18px;
+    position: absolute;
+    float: right;
+    margin-left: 70%; 
+    margin-top: -55%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  #large-screen-nav-bar {
+    display: none;
+  }
+  #burger-link {
+    display: inline-block;
+  }
+  #home {
+    padding-left: 10px;
+    color: #f6b630;
+    display: inline-block;
+  }
+  nav ul ul {
+    position: relative;
+    top: 100%;
+    background-color: rgba(55, 110, 119, 0.7);
+    display: none;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  #indicators {
+    margin-bottom: -27%;
+  }
+
+
+}
+
+@media screen and (max-width: 580px) {
+  #name {
+    font-size: 100%;
+  }
+
+  form {
+    font-size: 18px;
+    position: absolute;
+    float: right;
+    text-align: center;
+    margin-top: 3%;
+  }
+  input {
+    height: auto;
+  }
+
+  ::placeholder {
+    font-size: 8px;
+    font-style: italic;
+  }
+
+  .carousel-inner {
+    width: 100%;
+    height: 400px;
+  }
+
+  .carasel-caption {
+    background: #e4e9ed;
+    position: relative;
+    color: #565859;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.5em;
+    padding: 5px;
+    margin-top: -125px;
+  }
+
+  #indicators {
+    margin-bottom: -10px;
+  }
+
+  #funding {
+    font-size: 10px;
+    line-height: 2em;
+    float: left;
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 10px;
+    position: relative;
+    margin-top: 50px;
+  }
+
+  #funding ul {
+    float: left;
+    position: relative;
+    word-wrap: none;
+    width: 100%;
+  }
+
+  #list-two {
+    margin-top: -15px;
+  }
+
+  #dateevent {
+    float: left;
+    margin-left: 50px;
+    margin-top: -235px;
+  }
+
+  #events {
+    color: white;
+    font-size: 12px;
+    line-height: 3.5em;
+    overflow: hidden;
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 100%;
+    background: #3398cc;
+    margin: 0px 0px 0px 0px;
+  }
+
+  #map {
+    display: block;
+    width: 100%;
+    height: 276px;
+    background: url("map.jpg");
+    background-repeat: no-repeat;
+    background-position: 35% 45%;
+    margin-left: none;
+  }
+
+  #contact {
+    background: rgba(77, 87, 110, 0.7);
+    z-index: 5;
+    height: 200px;
+    width: 200px;
+    margin-top: -430px;
+    margin-left: 15%;
+    position: relative;
+    color: white;
+    font-size: 12px;
+    padding-left: 30px;
+    padding-top: 10px;
+  }
+
+  #Quick-Links {
+    margin-top: 0px;
+    margin-left: 0%;
+    position: relative;
+    float: none;
+    padding: 35px;
+    line-height: 1.5em;
+    background-color: #3398cc;
+    width: 100%;
+  }
+
+  #Follow-Us {
+    margin-left: 0%;
+    margin-top: 0px;
+    padding: 15px;
+    word-wrap: none;
+    width: 100%;
+    position: absolute;
+  }
+
+  #sm-icons {
+    width: 90px;
+    width: 100%;
+    word-wrap: none;
+    text-align: center;
+    color: #14254b;
+  }
+  footer {
+    background: #185766;
+    position: absolute;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: "open sans";
+    font-size: 10px;
+    padding-top: 15px;
+    bottom: -25%;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  #indicators {
+    margin-bottom: -10px;
+  }
+
+  @media screen and (max-width: 530px){
+    #indicators {
+      margin-bottom: -3%;
+  }
+
+  @media screen and (max-width: 530px){
+    #indicators {
+      margin-bottom: -5.5%;
+  }
+
+  @media screen and (max-width: 470px){
+    #indicators {
+      margin-bottom: -7.5%;
+  }
+
+  @media screen and (max-width: 460px){
+    #indicators {
+      margin-bottom: -9.5%;
+  }
+
+  @media screen and (max-width: 410px){
+    #indicators {
+      margin-bottom: -13%;
+  }
+@media screen and (max-width: 400px) {
+  #name {
+    font-size: 70%;
+  }
+
+  form {
+    font-size: 18px;
+    position: absolute;
+    float: right;
+    text-align: center;
+    margin-top: 3%;
+  }
+  input {
+    height: 30px;
+  }
+
+  ::placeholder {
+    font-size: 8px;
+    font-style: italic;
+  }
+
+  .carousel-inner {
+    width: 100%;
+    height: 500px;
+  }
+
+  .carasel-caption {
+    background: #e4e9ed;
+    position: relative;
+    color: #565859;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.5em;
+    padding: 5px;
+    margin-top: -325px;
+  }
+
+  #indicators {
+    margin-bottom: 900px;
+  }
+
+  #funding {
+    font-size: 10px;
+    line-height: 2em;
+    float: left;
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+  #funding ul {
+    float: left;
+    position: relative;
+    word-wrap: none;
+    width: 100%;
+  }
+
+  #list-two {
+    margin-top: -15px;
+  }
+
+  #dateevent {
+    float: left;
+    margin-left: 50px;
+    margin-top: -205px;
+  }
+
+  #events {
+    color: white;
+    font-size: 12px;
+    line-height: 2em;
+    overflow: hidden;
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 100%;
+    background: #3398cc;
+    margin: 0px 0px 0px 0px;
+  }
+
+  #map {
+    display: block;
+    width: 100%;
+    height: 276px;
+    background: url("map.jpg");
+    background-repeat: no-repeat;
+    background-position: 35% 45%;
+    margin-left: none;
+  }
+
+  #contact {
+    background: rgba(77, 87, 110, 0.7);
+    z-index: 5;
+    height: 200px;
+    width: 200px;
+    margin-top: -575px;
+    margin-left: 15%;
+    position: relative;
+    color: white;
+    font-size: 12px;
+    padding-left: 30px;
+    padding-top: 10px;
+  }
+
+  #Quick-Links {
+    margin-top: 0px;
+    margin-left: 0%;
+    position: relative;
+    float: none;
+    padding: 35px;
+    line-height: 1.5em;
+    background-color: #3398cc;
+    width: 100%;
+  }
+
+  #Follow-Us {
+    margin-left: 0%;
+    margin-top: 0px;
+    padding: 15px;
+    word-wrap: none;
+    width: 100%;
+    position: relative;
+  }
+
+  #sm-icons {
+    width: 90px;
+    width: 100%;
+    word-wrap: none;
+    text-align: center;
+    color: #14254b;
+  }
+  footer {
+    background: #185766;
+    position: absolute;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: "open sans";
+    font-size: 10px;
+    padding-top: 15px;
+    bottom: -28%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #name {
+    font-size: 70%;
+  }
+
+  form {
+    font-size: 18px;
+    position: absolute;
+    float: right;
+    text-align: center;
+    margin-top: 3%;
+  }
+  input {
+    height: 30px;
+  }
+
+  ::placeholder {
+    font-size: 8px;
+    font-style: italic;
+  }
+
+  .carousel-inner {
+    width: 100%;
+  }
+
+  .carasel-caption {
+    background: #e4e9ed;
+    position: relative;
+    color: #565859;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.5em;
+    padding: 5px;
+    margin-top: -325px;
+  }
+
+  #indicators {
+    margin-bottom: 60px;
+  }
+
+  #funding {
+    font-size: 10px;
+    line-height: 2em;
+    float: left;
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+  #funding ul {
+    float: left;
+    position: relative;
+    word-wrap: none;
+    width: 100%;
+  }
+
+  #list-two {
+    margin-top: -15px;
+  }
+
+  #events {
+    color: white;
+    font-size: 12px;
+    line-height: 1.8em;
+    overflow: hidden;
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 100%;
+    background: #3398cc;
+    margin: 0px 0px 0px 0px;
+  }
+
+  #map {
+    display: block;
+    width: 100%;
+    height: 276px;
+    background: url("map.jpg");
+    background-repeat: no-repeat;
+    background-position: 35% 45%;
+    margin-left: none;
+  }
+
+  #contact {
+    background: rgba(77, 87, 110, 0.7);
+    z-index: 5;
+    height: 200px;
+    width: 200px;
+    margin-top: -575px;
+    margin-left: 15%;
+    position: relative;
+    color: white;
+    font-size: 12px;
+    padding-left: 30px;
+    padding-top: 10px;
+  }
+
+  #Quick-Links {
+    margin-top: 0px;
+    margin-left: 0%;
+    position: relative;
+    float: none;
+    padding: 35px;
+    line-height: 1.5em;
+    background-color: #3398cc;
+    width: 100%;
+  }
+
+  #Follow-Us {
+    margin-left: 0%;
+    margin-top: 0px;
+    padding: 15px;
+    word-wrap: none;
+    width: 100%;
+    position: relative;
+  }
+
+  #sm-icons {
+    width: 90px;
+    width: 100%;
+    word-wrap: none;
+    text-align: center;
+    color: #14254b;
+  }
+  footer {
+    background: #185766;
+    position: absolute;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: "open sans";
+    font-size: 10px;
+    padding-top: 15px;
+    bottom: -25%;
+  }
+}
+
+@media screen and (max-width: 265px) {
+
+
+form {
+  font-size: 18px;
+  position: absolute;
+  float: right;
+  margin-left: 60%; 
+  margin-top: -15%;
+}
+
+ 
+
+  #funding {
+    font-size: 10px;
+    line-height: 2em;
+    float: left;
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 10px;
+    position: relative;
+    margin-top: 0px;
+  }
+
+
+  #indicators {
+    margin-bottom: 50px;
+  }
+
+  #dateevent {
+    float: left;
+    margin-left: 50px;
+    margin-top: -235px;
+  }
+
+}
